@@ -1,16 +1,16 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+// Para detalles del formato, consulta https://aka.ms/devcontainer.json. Para opciones de configuración, consulta el
+// README en: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
 	"name": "Pear Desktop - Dev Container",
-	// Keep in sync with `.github/workflows/build.yml`
+	// Mantén sincronizado con `.github/workflows/build.yml`
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:24",
-	// Features to add to the dev container. More info: https://containers.dev/features.
+	// Características para agregar al contenedor de desarrollo. Más información: https://containers.dev/features.
 	"features": {},
 	"postCreateCommand": "pnpm install --frozen-lockfile"
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// Usa 'forwardPorts' para crear una lista de puertos dentro del contenedor disponibles localmente.
 	// "forwardPorts": [],
-	// Configure tool-specific properties.
+	// Configura propiedades específicas de herramientas.
 	// "customizations": {},
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// Descomenta para conectarte como root en su lugar. Más información: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
